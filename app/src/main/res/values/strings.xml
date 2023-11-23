@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">FirstApp</string>
+    <string name="title_activity_location">Location</string>
+    <string name="title_activity_location_screen">LocationScreen</string>
+</resources>

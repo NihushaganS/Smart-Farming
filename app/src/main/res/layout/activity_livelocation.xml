@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".livelocation"
+    android:background="@drawable/lllg"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/source"
+        android:layout_width="match_parent"
+        android:layout_height="71dp"
+        android:layout_marginTop="100dp"
+        android:hint="Enter source Location"
+        android:textColor="@color/teal_700"
+        android:textColorHighlight="#009688"
+        android:textColorHint="#009688"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/destination"
+        android:layout_width="match_parent"
+        android:layout_height="74dp"
+        android:layout_marginTop="15dp"
+        android:hint="Enter destination Location"
+        android:textColor="#009688"
+        android:textColorHighlight="#009688"
+        android:textColorHint="#009688"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnsearch"
+        android:layout_width="147dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@color/teal_700"
+        android:text="Navigation" />
+
+
+</LinearLayout>
