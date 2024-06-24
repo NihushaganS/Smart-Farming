@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/lllg">
+
+
+
+    <TextView
+        android:id="@+id/listTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="250dp"
+        android:layout_marginBottom="15dp"
+        android:text="Products"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_marginTop="8dp" />
+
+    <ImageView
+        android:id="@+id/productImage"
+        android:layout_width="200dp"
+        android:layout_height="160dp"
+        android:background="@drawable/tomatos"
+        android:scaleType="centerCrop" />
+
+    <TextView
+        android:id="@+id/productName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="-150dp"
+        android:text="Tomatoes"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floatingActionButton2"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="330dp"
+        android:clickable="true"
+        app:srcCompat="@drawable/add" />
+
+    <TextView
+        android:id="@+id/productDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:text="Freshly picked tomatoes from farm"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="0dp" />
+
+    <TextView
+        android:id="@+id/productPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:text="20USD per pack"
+        android:textStyle="bold"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="20dp" />
+
+    <ImageView
+        android:id="@+id/productImage1"
+        android:layout_width="200dp"
+        android:layout_height="160dp"
+        android:layout_marginTop="70dp"
+        android:background="@drawable/farmer"
+        android:scaleType="centerCrop" />
+
+    <TextView
+        android:id="@+id/productName1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="-150dp"
+        android:text="Carrots"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floatingActionButton3"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="330dp"
+        android:clickable="true"
+        app:srcCompat="@drawable/add" />
+
+    <TextView
+        android:id="@+id/productDescription1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:text="Freshly picked Carrots from farm"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="0dp" />
+
+    <TextView
+        android:id="@+id/productPrice1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:text="15USD per pack"
+        android:textStyle="bold"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="20dp" />
+
+    <ImageView
+        android:id="@+id/productImage2"
+        android:layout_width="200dp"
+        android:layout_height="160dp"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/substence"
+        android:scaleType="centerCrop" />
+
+    <TextView
+        android:id="@+id/productName2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="0dp"
+        android:text="Pesticides"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floatingActionButton4"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="330dp"
+        android:clickable="true"
+        app:srcCompat="@drawable/add" />
+
+    <TextView
+        android:id="@+id/productDescription2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:text="Organic pesticides"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:id="@+id/productPrice2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:text="37USD per pack"
+        android:textStyle="bold"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="20dp" />
+</LinearLayout>

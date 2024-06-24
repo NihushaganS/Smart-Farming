@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/lllg"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/titleBlog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:layout_marginLeft="300dp"
+            android:text="Blog Post"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/titleTextView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:text="Agriculture Revolution in Sri Lanka"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/blogImageView1"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/zxc"
+        android:scaleType="centerCrop" />
+
+    <TextView
+        android:id="@+id/contentTextView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Click to read "
+        android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/titleTextView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:text="Agriculture Revolution in Sri Lanka"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/blogImageView2"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@drawable/farmer"
+            android:layout_marginBottom="8dp"
+            android:scaleType="centerCrop" />
+
+        <TextView
+            android:id="@+id/contentTextView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Click to read "
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/titleTextView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:text="Agriculture Revolution in Sri Lanka"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/blogImageView3"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@drawable/farmer"
+            android:layout_marginBottom="8dp"
+            android:scaleType="centerCrop" />
+
+        <TextView
+            android:id="@+id/contentTextView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Click to read "
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/titleTextView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:text="Agriculture Revolution in Sri Lanka"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/blogImageView4"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@drawable/farmer"
+            android:layout_marginBottom="8dp"
+            android:scaleType="centerCrop" />
+
+        <TextView
+            android:id="@+id/contentTextView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Click to read "
+            android:textSize="16sp" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+</ScrollView>

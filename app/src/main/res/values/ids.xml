@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="titleTextView" type="id" />
+    <item name="contentTextView" type="id" />
+    <item name="recyclerView" type="id" />
+    <item name="productImageView" type="id" />
+    <item name="productNameTextView" type="id" />
+    <item name="productDescriptionTextView" type="id" />
+</resources>

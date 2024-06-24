@@ -2,6 +2,7 @@ package com.hashini.firstapp;
 
 import android.os.Bundle;
 
+
 import androidx.appcompat.app.AppCompatActivity;
 
 public class BlogScreen extends AppCompatActivity {
